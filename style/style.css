@@ -25,6 +25,7 @@ blockquote {
   max-width: 360px;
   min-height: 100px;
   margin: auto;
+  padding: 0px 20px 0px 20px;
 }
 
 .content-section_theme_dark {
@@ -106,10 +107,7 @@ blockquote {
   background-size: 95% auto;
 }
 .intro {
-  padding: 30px 20px 24px 20px;
-  /*display: flex;
-  flex-direction: column;
-  gap: 24px;*/
+  padding: 0px 20px;
 }
 .intro__heading {
   display: flex;
@@ -139,32 +137,123 @@ blockquote {
   flex-direction: column;
   gap: 24px;
   margin-top: 24px;
+  padding: 0px 0px 37px 0px;
+
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px; /* 135% */
+}
+.reasons {
+  padding: 20px 0px 20px 0px;
 }
 .content-section__subtitle {
-  color: var(--black-bg, #131313);
   font-family: EB Garamond;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 115%; /* 32.2px */
-  padding: 40px 20px 0px;
+  padding: 20px 20px 32px 20px;
 }
 .content-section__introduction {
-  color: var(--black-bg, #131313);
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px; /* 135% */
-  padding: 32px 20px;
+  padding: 0px 20px;
 }
 .content-section__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 0 20px 0 36px;
+  padding: 32px 20px 20px;
   line-height: 1.35;
+  padding-inline-start: 37px;
 }
 .content-section__list-accent {
   font-weight: 700;
+}
+.how-to {
+  padding: 20px 0px 0px;
+}
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.cards-list:last-child {
+  margin-bottom: 60px;
+}
+.card {
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.card:last-child {
+}
+.card_theme_dark {
+  border-radius: 30px;
+  background: var(--gray-bg, #343434);
+  color: #f5f5f5;
+}
+.card_theme_bright {
+  border-radius: 30px;
+  background: var(--yellow-bg, #fee42a);
+  color: #141414;
+}
+.card__author {
+}
+.card__author-photo {
+  width: 100px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.card__author-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  margin-bottom: 8px;
+}
+.card__content {
+}
+.card__title {
+  padding-bottom: 8px;
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%; /* 29.7px */
+}
+.card__text {
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px; /* 135% */
+}
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--yellow-bg, #fee42a);
+}
+.footer__copy {
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+.footer__links a {
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.25;
+  text-decoration: none;
 }
