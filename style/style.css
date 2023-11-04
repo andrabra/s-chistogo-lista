@@ -185,6 +185,7 @@ blockquote {
   flex-direction: column;
   gap: 32px;
   margin-top: 20px;
+  padding-bottom: 60px;
 
 }
 .cards-list:last-child {
@@ -244,7 +245,7 @@ blockquote {
   align-items: center;
   border-top: 1px solid #fee42a;
   min-height: 20px;
-  margin-top: 60px;
+
 }
 .footer__copy {
 }
