@@ -188,9 +188,7 @@ blockquote {
   padding-bottom: 60px;
 
 }
-.cards-list:last-child {
 
-}
 .card {
   margin: 0px 20px;
   padding: 20px;
@@ -207,8 +205,7 @@ blockquote {
   background: var(--yellow-bg, #fee42a);
   color: #141414;
 }
-.card__author {
-}
+
 .card__author-photo {
   width: 100px;
   display: block;
@@ -222,8 +219,7 @@ blockquote {
   line-height: 135%;
   margin-bottom: 8px;
 }
-.card__content {
-}
+
 .card__title {
   padding-bottom: 8px;
   font-family: EB Garamond;
@@ -247,8 +243,7 @@ blockquote {
   min-height: 20px;
 
 }
-.footer__copy {
-}
+
 
 .footer__links {
   display: flex;
